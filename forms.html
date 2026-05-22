@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align:center">
+        Form Example
+    </h1>
+    <hr>
+    <form method="post">
+        <label for="username">Username:</label><hr>
+        <input type="text" id="username" name="username" placeholder="John Doe">
+        <br>
+        <label for="subject">Subject:</label><hr>
+        <input type="text" id="subject" name="subject" placeholder="Enter subject">
+        <br>
+        <label for="DOB">DOB: </label><hr>
+        <input type="date" id="DOB" name="DOB">
+        <br>
+        <label for="marks">Marks:</label><hr>
+        <input type="number" id="marks" name="marks" min="0" max="100" placeholder="50">
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
