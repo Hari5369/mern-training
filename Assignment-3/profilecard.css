@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color:white;
+    height: 450px;
+    width: 250px;
+    
+    border-radius: 20px;
+    box-shadow: 30px 30px 50px black;
+    margin: 10px;
+    
+}
+.image{
+    
+      overflow: hidden;
+      display: inline-block;
+
+      
+
+}
+.plus{
+    font-weight: bolder;
+    font-size: 20px;
+    
+    position:relative;
+    margin-top: 20px;
+    bottom:250px;
+    left:210px;
+    
+    border-radius: 80%;
+    padding-left : 8px;
+    padding-right : 8px;
+    background-color: white ;
+    box-shadow: 2px 2px 2px black;
+
+}
+#profilepic{
+    position: relative;
+    bottom: 20px;
+    left:px;
+    
+}
+.back{
+    background-color:white;
+    position: absolute;
+    padding: 5px;
+    margin-top: -30px;
+    margin-left: 79px;
+    border-radius: 50%;
+
+}
+.info{
+    /* display: flex; */
+    justify-content: center;
+}
+#name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+#selfinfo{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color:#7D807F;
+    text-align: center;
+}
+.stats{
+    border-radius: 20px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    display: flex;
+    height: 90px;
+    width: 230px;
+    margin-left: 11px;
+    justify-content: center;
+}
+.stat1{
+    display: block;
+    text-align: center;
+   margin-top: 25px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+#stathead{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight:bolder;
+}
+#statstat{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #7D807F;
+    font-size: 10px;
+    margin-top: 10px;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
